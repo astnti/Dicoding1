@@ -1,0 +1,23 @@
+/* Penggunaan Static Flow & Non static flow dengan posation */
+.second {
+    background-color: #6495ed;
+    position: relative;
+    top: 30px;
+    left: 10px;
+ }
+/* Contoh Style display untuk navigasi */
+.b { 
+    display: inline;
+    margin-left: 5px;
+}
+/* Contoh color bisa menggunakan numeric value(RGB, RGBA, HEX, HSL, ataupun HSLA), predefinend color nama(nama color), opacity berikut contoh menggunakan opacyty*/
+p {
+   color: rgba(78,231,23, 0.5);
+   color: hsla(104, 82%, 50%, 0.5);
+   color: #4ee717ee; /*ee merupakan digit tambahan untuk menerapkan opacity*/
+}
+
+/* Contoh menerapkan border untuk style */
+.box {
+  border-width: 2px 1px 1px 2px; /*top right bottom left*/
+}

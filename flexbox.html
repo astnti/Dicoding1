@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+   <style>
+       .container {
+           display: flex;
+ 
+           /* Properti lainnya */
+           width: 800px;
+           height: 250px;
+           background-color: #11C5C6;
+           border: 2px solid black;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+       }
+       .containera {
+           display: flex;
+           flex-direction: column; /*Flex-direction*/
+ 
+           /* Properti lainnya */
+           width: 800px;
+           height: 250px;
+           background-color: #11C5C6;
+           border: 2px solid black;
+           padding: 20px;
+           border-radius: 10px;
+           margin: 0 auto;
+       }
+       .flex-column {
+           display: flex;
+           flex-direction: column;
+ 
+           /* properti lainnya */
+           width: 800px;
+           height: 300px;
+           padding: 20px;
+           margin: 0 auto;
+           border: 2px solid black;
+           border-radius: 10px;
+           background-color: #11C5C6;
+       }
+ 
+       .flex-row {
+           display: flex;
+           flex-direction: row;
+           flex-grow: 1;
+ 
+           /* properti lainnya */
+           padding: 20px;
+           margin: 5px;
+           background-color: #FBDD1C;
+           border: 2px solid black;
+           border-radius: 10px;
+       }
+
+       .box {
+        flex-grow: 1;
+ 
+           /* properti lainnya */
+           background-color: #FBDD1C;
+           margin: 5px;
+           border: 2px solid black;
+           border-radius: 10px;
+       }
+       /* Flex-Container */
+       .first {
+           flex-grow: 1;
+       }
+       .second {
+           flex-grow: 2;
+       }
+ 
+       .third {
+           flex-grow: 1;
+       }
+   </style>
+</head>
+<body>
+    <!-- Flex-container -->
+<div class="container">
+   <div class="box"></div>
+   <div class="box"></div>
+   <div class="box"></div>
+</div>
+<br>
+<!-- Flex-Grow -->
+<div class="container">
+    <div class="box first"></div>
+    <div class="box second"></div>
+    <div class="box third"></div>
+ </div>
+ <br>
+ <!-- Flex-Direction -->
+ <div class="containera">
+    <div class="box first">1</div>
+    <div class="box second">2</div>
+    <div class="box third">3</div>
+ </div>
+ <br>
+ <!-- Flex direction  -->
+ <div class="flex-column">
+    <div class="flex-row">
+        <div class="box">a</div>
+        <div class="box">b</div>
+        <div class="box">c</div>
+    </div><br>
+    <div class="flex-row">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+    </div>
+</body>
+</html>
